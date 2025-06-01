@@ -1,0 +1,29 @@
+/* .container {
+    border: 1px solid black;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+/* Clearfix CSS */
+/* .container::after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+/* * {
+    box-sizing: border-box;
+} */
+
+.triangle {
+    /* background-color: green; */
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 70px solid yellow;
+    position: absolute;
+    background-color: red;
+    background-clip: content-box;
+}

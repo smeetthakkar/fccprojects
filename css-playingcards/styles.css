@@ -1,0 +1,56 @@
+body {
+    background-color: thistle;
+    height: 100vh;
+}
+
+#playing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    min-width: 250px;
+    max-width: 250px;
+    height: 350px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 80px;
+}
+
+.red {
+    color: red;
+}
+
+.left {
+    align-self: flex-start;
+}
+
+.middle {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    align-self: flex-end;
+}
+
+.flipped {
+    transform: rotate(180deg);
+}
